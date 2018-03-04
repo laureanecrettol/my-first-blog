@@ -1,6 +1,8 @@
 <html>
 <head>
         <title>Le Blog de lilice</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 </head>
 <body>
         <div>
@@ -12,7 +14,7 @@
               <h1><a href="">{{ post.title }}</a></h1>
               <p>{{ post.text|linebreaksbr }}</p>
               <p>publié: {{ post.published_date }}</p>
-          </div> 
+          </div>
           {% endfor %}
     </body>
 </html>
